@@ -1,8 +1,13 @@
+#include <bits/stdc++.h>
+using namespace std;
+
 // Class to implement Minimum Stack
 class MinStack {
 private:
     // Initialize a stack
-    stack <pair<int,int>> st;
+    stack <long long> st;
+    // To store the minimum value 
+    long long mini;
     
 public:
     
@@ -11,41 +16,68 @@ public:
     }
     
     // Method to push a value in stack
-    void push(int value) {
+    void push(long long value) {
         
         // If stack is empty
         if(st.empty()) {
+            //Update the minimum value
+            mini = value;
             
             // Push current value as minimum
-            st.push( {value, value} );
+            st.push( value );
             return;
         }
         
-        // Update the current minimum 
-        int mini = min(getMin(), value);
-        
-        // Add the pair to the stack
-        st.push({value, mini});
+        // If the value is greater than the minimum
+        if(value > mini) {
+            st.push(value);
+        }
+        else {
+            // Add the modified value to stack
+            st.push(2 * value - mini);
+            // Update the minimum
+            mini = value;
+        }
     }
     
     // Method to pop a value from stack
     void pop() {
-        // Using in-built pop method
-        st.pop(); 
+        // Base case
+        if(st.empty()) return;
+        
+        // Get the top
+        long long x = st.top();
+        st.pop(); // Pop operation
+        
+        // If the modified value was added to stack
+        if(x < mini) {
+            // Update the minimum
+            mini = 2 * mini - x;
+        }
     }
     
     // Method to get the top of stack
-    int top() {
-        // Return the top value
-        return st.top().first;
+    long long top() {
+        // Base case
+        if(st.empty()) return -1;
+        
+        // Get the top
+        long long x = st.top();
+        
+        // Returnn top if minimum is less than the top
+        if(mini < x) return x;
+        
+        //Otherwise return mini
+        return mini;
     }
     
     // Method to get the minimum in stack
-    int getMin() {
+    long long getMin() {
         // Return the minimum
-        return st.top().second;
+        return mini;
     }
 };
+
 
 /**
  * Your MinStack object will be instantiated and called as such:
