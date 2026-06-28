@@ -1,28 +1,31 @@
 class Solution {
 public:
-    // Function to move all zeroes to end
-    vector<int> moveZeroes(vector<int>& arr) {
-        // Create temp array
-        vector<int> temp(arr.size(), 0);
+    // Function to move zeroes to the end
+    void moveZeroes(vector<int>& nums) {
+        // Pointer to the first zero
+        int j = -1;
 
-        // Pointer to fill temp
-        int index = 0;
-
-        // Traverse input array
-        for (int i = 0; i < arr.size(); i++) {
-            // If non-zero, add to temp
-            if (arr[i] != 0) {
-                temp[index] = arr[i];
-                index++;
+        // Find the first zero
+        for (int i = 0; i < nums.size(); i++) {
+            if (nums[i] == 0) {
+                j = i;
+                break;
             }
         }
 
-        // Copy back temp to original
-        for (int i = 0; i < arr.size(); i++) {
-            arr[i] = temp[i];
-        }
+        // If no zero found, return
+        if (j == -1) return;
 
-        // Return updated array
-        return arr;
+        // Start from the next index of first zero
+        for (int i = j + 1; i < nums.size(); i++) {
+            // If current element is non-zero
+            if (nums[i] != 0) {
+                // Swap with nums[j]
+                swap(nums[i], nums[j]);
+                // Move j to next zero
+                j++;
+            }
+        }
     }
 };
+
