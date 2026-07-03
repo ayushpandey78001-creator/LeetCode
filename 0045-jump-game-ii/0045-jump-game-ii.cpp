@@ -1,27 +1,26 @@
 class Solution {
 public:
-     // Function to compute the minimum number of jumps to reach the last index
+    // Function to compute the minimum number of jumps to reach the last index
     int jump(vector<int>& nums) {
-        // Get the size of input array
-        int n = nums.size();
+        // Initialize variables to keep track of range and jumps
+        int jumps = 0, currentEnd = 0, farthest = 0;
 
-        // Initialize DP array with large value
-        vector<int> dp(n, INT_MAX);
+        // Traverse through the array (excluding the last element)
+        for (int i = 0; i < nums.size() - 1; ++i) {
+            // Update the farthest index that can be reached so far
+            farthest = max(farthest, i + nums[i]);
 
-        // It takes 0 jumps to reach the starting index
-        dp[0] = 0;
+            // When we reach the end of the current jump range
+            if (i == currentEnd) {
+                // We need to make a jump
+                jumps++;
 
-        // Iterate through all indices
-        for (int i = 0; i < n; ++i) {
-            // For each position, calculate max jump
-            for (int j = 1; j <= nums[i] && i + j < n; ++j) {
-                // Update dp value for the position we can reach
-                dp[i + j] = min(dp[i + j], dp[i] + 1);
+                // Move the current end to the farthest index we can reach
+                currentEnd = farthest;
             }
         }
 
-        // Return the minimum jumps to reach last index
-        return dp[n - 1];
+        // Return the total jumps needed
+        return jumps;
     }
 };
-
