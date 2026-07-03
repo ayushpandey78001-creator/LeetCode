@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0014-longest-common-prefix) |
 | [0042-trapping-rain-water](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0055-jump-game) |
 | [0283-move-zeroes](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0045-jump-game-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0055-jump-game) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 ## Trie
@@ -67,5 +69,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0045-jump-game-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0055-jump-game) |
 <!---LeetCode Topics End-->
