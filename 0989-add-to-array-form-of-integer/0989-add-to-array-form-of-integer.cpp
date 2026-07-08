@@ -1,13 +1,5 @@
 class Solution {
 public:
-    int digits(int n){
-        int c=0;
-        for(int i=n;i>0;i/=10){
-            c++;
-        }
-        return c;
-    }
-
     vector<int> addToArrayForm(vector<int>& num, int k) {
         for(int j=num.size()-1;j>=0;j--){
             if((num[j]+(k%10))<=9){
