@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0045-jump-game-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0045-jump-game-ii) |
 | [0055-jump-game](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0055-jump-game) |
+| [0066-plus-one](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0066-plus-one) |
 | [0079-word-search](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0079-word-search) |
 | [0283-move-zeroes](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0485-max-consecutive-ones) |
@@ -92,6 +93,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0050-powx-n) |
+| [0066-plus-one](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0066-plus-one) |
 ## Recursion
 |  |
 | ------- |
