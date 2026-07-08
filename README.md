@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0503-next-greater-element-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [0989-add-to-array-form-of-integer](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0989-add-to-array-form-of-integer) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0050-powx-n](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0050-powx-n) |
 | [0066-plus-one](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0066-plus-one) |
+| [0989-add-to-array-form-of-integer](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0989-add-to-array-form-of-integer) |
 ## Recursion
 |  |
 | ------- |
