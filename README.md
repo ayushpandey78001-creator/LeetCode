@@ -43,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0055-jump-game](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0055-jump-game) |
 | [0066-plus-one](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0066-plus-one) |
 | [0079-word-search](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0079-word-search) |
+| [0217-contains-duplicate](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0217-contains-duplicate) |
 | [0283-move-zeroes](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0283-move-zeroes) |
 | [0485-max-consecutive-ones](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0503-next-greater-element-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0503-next-greater-element-ii) |
@@ -100,4 +101,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0050-powx-n](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0050-powx-n) |
+## Hash Table
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0217-contains-duplicate) |
+## Sorting
+|  |
+| ------- |
+| [0217-contains-duplicate](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0217-contains-duplicate) |
 <!---LeetCode Topics End-->
