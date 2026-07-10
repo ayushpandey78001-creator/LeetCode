@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0503-next-greater-element-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [0989-add-to-array-form-of-integer](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0989-add-to-array-form-of-integer) |
+| [3925-concatenate-array-with-reverse](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -127,4 +128,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+## Simulation
+|  |
+| ------- |
+| [3925-concatenate-array-with-reverse](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 <!---LeetCode Topics End-->
