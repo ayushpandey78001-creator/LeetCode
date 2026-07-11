@@ -1,37 +1,34 @@
 class Solution {
 public:
-    // Function to count subarrays with exactly k odd numbers
-    int numberOfSubarrays(vector<int>& nums, int k) {
+    // function to count subarrays with at most k odd numbers
+    int countAtMost(vector<int>& nums, int k) {
+        // Initialize variables
+        int left = 0, res = 0;
 
-        // Frequency map to track how often a certain odd count has occurred
-        unordered_map<int, int> freq;
+        // Traverse through the array
+        for (int right = 0; right < nums.size(); right++) {
+            // If current number is odd, reduce k
+            if (nums[right] % 2 != 0)
+                k--;
 
-        // Initialize with 0 count of odd numbers seen so far
-        freq[0] = 1;
-
-        // Running count of odd numbers in the current prefix
-        int oddCount = 0;
-
-        // Total number of nice subarrays
-        int result = 0;
-
-        // Traverse through each element in the array
-        for (int num : nums) {
-
-            // Check if current number is odd and update count
-            if (num % 2 == 1) oddCount++;
-
-            // If there exists a prefix with (current odd count - k), add its frequency to result
-            if (freq.count(oddCount - k)) {
-                result += freq[oddCount - k];
+            // Shrink the window until k is valid
+            while (k < 0) {
+                if (nums[left] % 2 != 0)
+                    k++;
+                left++;
             }
 
-            // Update the frequency of current odd count
-            freq[oddCount]++;
+            // Add valid subarrays ending at right
+            res += (right - left + 1);
         }
 
-        // Return the total number of valid subarrays
-        return result;
+        // Return the count of valid subarrays
+        return res;
+    }
+
+    // Main function to get number of subarrays with exactly k odd numbers
+    int numberOfSubarrays(vector<int>& nums, int k) {
+        return countAtMost(nums, k) - countAtMost(nums, k - 1);
     }
 };
 
