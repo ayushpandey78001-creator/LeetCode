@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0485-max-consecutive-ones) |
 | [0503-next-greater-element-ii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0503-next-greater-element-ii) |
 | [0907-sum-of-subarray-minimums](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [0930-binary-subarrays-with-sum](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0989-add-to-array-form-of-integer](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0989-add-to-array-form-of-integer) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [3925-concatenate-array-with-reverse](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0930-binary-subarrays-with-sum](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 ## Sorting
 |  |
 | ------- |
@@ -133,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
+| [0930-binary-subarrays-with-sum](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 ## Simulation
 |  |
@@ -141,5 +144,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Prefix Sum
 |  |
 | ------- |
+| [0930-binary-subarrays-with-sum](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 <!---LeetCode Topics End-->
