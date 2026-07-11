@@ -1,31 +1,36 @@
 class Solution {
 public:
-    // Function to count number of subarrays with sum equal to goal
+    // Function to calculate number of subarrays with sum exactly equal to goal
     int numSubarraysWithSum(vector<int>& nums, int goal) {
-        // Hashmap to store prefix sum frequencies
-        unordered_map<int, int> prefixSumCount;
+        // Return difference between subarrays with sum at most goal and at most (goal - 1)
+        return atMost(nums, goal) - atMost(nums, goal - 1);
+    }
 
-        // Initialize count of valid subarrays and current sum
-        int count = 0, sum = 0;
+private:
+    // Helper function to compute number of subarrays with sum at most k
+    int atMost(vector<int>& nums, int k) {
+        // If k is negative, no such subarrays exist
+        if (k < 0) return 0;
 
-        // Add base case: prefix sum 0 has frequency 1
-        prefixSumCount[0] = 1;
+        int left = 0;
+        int sum = 0;
+        int count = 0;
 
-        // Iterate through the array
-        for (int num : nums) {
-            // Add current element to prefix sum
-            sum += num;
+        // Traverse the array using right pointer
+        for (int right = 0; right < nums.size(); right++) {
+            // Add current element to sum
+            sum += nums[right];
 
-            // If (sum - goal) exists in map, add its frequency to count
-            if (prefixSumCount.find(sum - goal) != prefixSumCount.end()) {
-                count += prefixSumCount[sum - goal];
+            // Shrink the window from the left if sum exceeds k
+            while (sum > k) {
+                sum -= nums[left];
+                left++;
             }
 
-            // Increment frequency of current prefix sum
-            prefixSumCount[sum]++;
+            // Add the number of valid subarrays ending at right
+            count += (right - left + 1);
         }
 
-        // Return total count of valid subarrays
         return count;
     }
 };
