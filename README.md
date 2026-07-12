@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
 | [0989-add-to-array-form-of-integer](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0989-add-to-array-form-of-integer) |
+| [0992-subarrays-with-k-different-integers](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
@@ -120,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0268-missing-number) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
 ## Sorting
@@ -142,6 +144,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0003-longest-substring-without-repeating-characters](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [0930-binary-subarrays-with-sum](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0930-binary-subarrays-with-sum) |
+| [0992-subarrays-with-k-different-integers](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1004-max-consecutive-ones-iii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
@@ -157,4 +160,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+## Counting
+|  |
+| ------- |
+| [0992-subarrays-with-k-different-integers](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 <!---LeetCode Topics End-->
