@@ -36,6 +36,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0151-reverse-words-in-a-string](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0424-longest-repeating-character-replacement](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0424-longest-repeating-character-replacement) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [2108-find-first-palindromic-string-in-the-array](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Array
 |  |
 | ------- |
@@ -58,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1004-max-consecutive-ones-iii) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
+| [2108-find-first-palindromic-string-in-the-array](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 | [3925-concatenate-array-with-reverse](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 ## Monotonic Stack
 |  |
@@ -73,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0125-valid-palindrome) |
 | [0151-reverse-words-in-a-string](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0151-reverse-words-in-a-string) |
 | [0283-move-zeroes](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0283-move-zeroes) |
+| [2108-find-first-palindromic-string-in-the-array](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
 ## Dynamic Programming
 |  |
 | ------- |
