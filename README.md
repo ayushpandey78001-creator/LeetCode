@@ -63,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1423-maximum-points-you-can-obtain-from-cards](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1423-maximum-points-you-can-obtain-from-cards) |
 | [2108-find-first-palindromic-string-in-the-array](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/2108-find-first-palindromic-string-in-the-array) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
 | [3925-concatenate-array-with-reverse](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/3925-concatenate-array-with-reverse) |
 ## Monotonic Stack
 |  |
@@ -134,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0992-subarrays-with-k-different-integers](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [1248-count-number-of-nice-subarrays](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1248-count-number-of-nice-subarrays) |
 | [1358-number-of-substrings-containing-all-three-characters](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/1358-number-of-substrings-containing-all-three-characters) |
+| [3718-smallest-missing-multiple-of-k](https://github.com/ayushpandey78001-creator/LeetCode/tree/master/3718-smallest-missing-multiple-of-k) |
 ## Sorting
 |  |
 | ------- |
